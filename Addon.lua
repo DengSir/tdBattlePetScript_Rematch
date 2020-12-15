@@ -37,6 +37,9 @@ function Addon:GetPetTip(id)
     if not id then
         return ' '
     end
+    if id:find('random:') == 1 or id == 'ignored' then
+        return L.RANDOM_PET
+    end
     local _, customName, _, _, _, _, _, name, icon, petType = C_PetJournal.GetPetInfoByPetID(id)
     if not name then
         return ' '
