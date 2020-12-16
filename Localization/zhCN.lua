@@ -15,3 +15,6 @@ L.LEVELING_FIELD = '升级栏位'
 
 L['Team:'] = '队伍：'
 L.NO_TEAM_FOR_SCRIPT = '当前没有队伍匹配到该脚本。'
+
+-- todo: localize
+L.RANDOM_PET = 'A random pet.'

@@ -17,4 +17,5 @@ L["TITLE"] = "Rematch"
 L["WRITE_SCRIPT"] = "Write script"
 L['Team:'] = true
 L['NO_TEAM_FOR_SCRIPT'] = 'No team matches the script.'
+L['RANDOM_PET'] = 'A random pet.'
 --@end-debug@
